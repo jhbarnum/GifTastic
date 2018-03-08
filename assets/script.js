@@ -1,11 +1,9 @@
-
-
-      // initial source of topics for gifs
-      var topics = ['Donald Trump', 'Barack Obama', 'George W. Bush', 'Bill Clinton', 'George H.W. Bush', 'Ronald Reagan', 'Jimmy Carter'];
+// initial source of topics for gifs
+var topics = ['Donald Trump', 'Barack Obama', 'George W. Bush', 'Bill Clinton', 'George H.W. Bush', 'Ronald Reagan', 'Jimmy Carter'];
       // variable to hold the search term
-      var president;
+var president;
       // api key plus search term
-	  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       		president + "&api_key=dc6zaTOxFJmzC&limit=10";
  // initializes the gif search buttons
 function renderButtons() {
