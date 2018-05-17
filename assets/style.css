@@ -1,3 +1,15 @@
+.jumbotron {
+	background-color: grey;
+}
 body {
 	text-align: center;
+	background-color: lightgrey;
+}
+Button {
+	padding: 5px;
+	margin: 5px;
+}
+form {
+	padding: 5px;
+	margin: 5px;	
 }

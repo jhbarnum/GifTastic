@@ -10,7 +10,7 @@ function renderButtons() {
  	$("#gifButton").empty();
  	// array is sorted through to get the val of each button generated
     for (var i = 0; i < topics.length; i++) {
-     	var a = $("<button>");
+     	var a = $(" <button> ");
     	a.addClass("topics");
         a.attr("data-name", topics[i]);
         a.text(topics[i]);
